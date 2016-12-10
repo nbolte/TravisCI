@@ -16,6 +16,7 @@
    	</target>
 
  	<target name="dist" depends="compile" description="generate the distribution">
+		<mkdir dir="${dist}/src"/>
 		<mkdir dir="${dist}/lib"/>
 		<jar jarfile="${dist}/lib/TravisTest-${DSTAMP}.jar" basedir="${build}">
 			<manifest>
