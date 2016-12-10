@@ -36,4 +36,6 @@
         <java jar="${dist}/lib/TravisTest-${DSTAMP}.jar" fork="true"/>
     </target>
 	
+	<target name="test"></target>
+	
 </project>
